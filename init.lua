@@ -875,6 +875,10 @@ require('lazy').setup({
     -- this is equalent to setup({}) function
   },
   {
+    -- adds faster.nvim to open large files
+    'pteroctopus/faster.nvim',
+  },
+  {
     -- adds neovim tree to get a file tree
     'nvim-neo-tree/neo-tree.nvim',
     branch = 'v3.x',
